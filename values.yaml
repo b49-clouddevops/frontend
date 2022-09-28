@@ -2,9 +2,10 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-appName: frontend 
+
 appVersion: 9.0.3 
 appPort: 80
+appName: frontend 
 
 replicas: 1
 
