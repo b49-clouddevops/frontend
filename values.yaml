@@ -15,8 +15,6 @@ appVersion: 9.0.3
 appPortNumber: 80
 appName: frontend 
 
-{{ .values.image.repository }}
-
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
