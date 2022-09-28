@@ -9,13 +9,13 @@ image:
   repository: 834725375088.dkr.ecr.us-east-1.amazonaws.com
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10.0.0"
-
-
+  tag: "9.0.3"
 
 appVersion: 9.0.3 
 appPortNumber: 80
 appName: frontend 
+
+{{ .values.image.repository }}
 
 imagePullSecrets: []
 nameOverride: ""
