@@ -4,7 +4,7 @@
 
 
 appVersion: 9.0.3 
-appPort: 80
+appPortNumber: 80
 appName: frontend 
 
 replicas: 1
