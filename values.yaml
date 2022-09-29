@@ -15,6 +15,9 @@ appVersion: 9.0.3
 appPortNumber: 80
 appName: frontend 
 
+ingress: 
+  enabled: true 
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
